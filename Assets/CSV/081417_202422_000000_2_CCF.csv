@@ -1,0 +1,4 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+000000,NA,000,NA,2,081417,082346,NA,NA,070516
+ID,task,trialCode,target,visual1,visual2,visual3,visual4,corrResp,numSyll,numPhon,struct,syllPos,trialType,audio1,audio2,numPrac,taskPos,trialPos,targetPos,resp,acierto,RT,session
+000000,vocabulary,VO_E_01,brazo,brazo,cazo,pierna,excavadora,brazo,2,5,CCV,NA,0,brazo,NA,0,1,0,0,NA,NA,NA,2

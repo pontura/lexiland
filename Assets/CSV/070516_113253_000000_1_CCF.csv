@@ -1,0 +1,10 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+000000,NA,000,NA,1,070516,113236,NA,NA,070316
+ID,task,trialCode,target,visual1,visual2,visual3,visual4,corrResp,numSyll,numPhon,struct,syllPos,trialType,audio1,audio2,numPrac,taskPos,trialPos,targetPos,resp,acierto,RT,session
+000000,blendingS,BS_E_01,perro,perro,pelo,gato,faro,perro,2,4,CV,NA,0,perro_s,NA,0,1,0,2,NA,NA,NA,1
+000000,blendingS,BS_E_02,tetera,tetera,tesoro,botella,juguete,tetera,3,6,CV,NA,0,tetera_s,NA,0,1,0,0,NA,NA,NA,1
+000000,blendingS,BS_P_01,cama,cama,capa,mesa,pato,cama,2,4,CV,NA,1,cama_s,NA,0,1,1,1,cama,True,5.595062,1
+000000,blendingS,BS_P_02,brillo,brillo,brisa,NA,preso,brillo,2,5,CCV,NA,1,brillo_s,NA,0,1,2,0,brillo,True,8.387138,1
+000000,blendingS,BS_P_03,paleta,paleta,panera,pelota,ballena,paleta,3,6,CV,NA,1,paleta_s,NA,0,1,3,3,paleta,True,0.01419067,1
+000000,blendingS,BS_P_01,cama,cama,capa,mesa,pato,cama,2,4,CV,NA,1,cama_s,NA,1,1,1,3,cama,True,6.179535,1
+000000,blendingS,BS_P_02,brillo,brillo,brisa,NA,preso,brillo,2,5,CCV,NA,1,brillo_s,NA,1,1,2,2,brillo,True,3.693672,1

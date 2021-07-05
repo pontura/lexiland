@@ -1,0 +1,9 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+,,,,,,,,,241017
+ID,task,trialCode,target,visual1,visual2,visual3,visual4,corrResp,numSyll,numPhon,struct,syllPos,trialType,audio1,audio2,numPrac,taskPos,trialPos,targetPos,resp,acierto,RT,session
+,blendingS,BS_E_01,perro,perro,pelo,gato,faro,perro,2,4,CV,NA,0,perro_s,NA,0,1,0,1,NA,NA,NA,
+,blendingS,BS_E_02,tetera,tetera,tesoro,botella,juguete,tetera,3,6,CV,NA,0,tetera_s,NA,0,1,0,0,NA,NA,NA,
+,blendingS,BS_P_01,cama,cama,capa,mesa,pato,cama,2,4,CV,NA,1,cama_s,NA,0,1,1,1,cama,True,3.520355,
+,blendingS,BS_P_02,brillo,brillo,brisa,NA,preso,brillo,2,5,CCV,NA,1,brillo_s,NA,0,1,2,2,brillo,True,10.51505,
+,blendingS,BS_P_03,paleta,paleta,panera,pelota,ballena,paleta,3,6,CV,NA,1,paleta_s,NA,0,1,3,3,paleta,True,6.02005,
+,blendingS,BS_T_15,billetera,billetera,bicicleta,monedero,telefono,billetera,4,8,CV,NA,2,billetera_s,NA,0,1,1,3,billetera,True,0.2312851,

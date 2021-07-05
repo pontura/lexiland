@@ -1,0 +1,13 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+,,,,,,,,,241017
+ID,task,trialCode,target,visual1,visual2,visual3,visual4,corrResp,numSyll,numPhon,struct,syllPos,trialType,audio1,audio2,numPrac,taskPos,trialPos,targetPos,resp,acierto,RT,session
+,vocabulary,VO_E_01,brazo,brazo,cazo,pierna,excavadora,brazo,2,5,CCV,NA,0,brazo,NA,0,1,0,3,NA,NA,NA,
+,vocabulary,VO_E_02,vestido,vestido,batido,pantalon,cortina,vestido,3,7,CV,NA,0,vestido,NA,0,1,0,2,NA,NA,NA,
+,vocabulary,VO_P_01,corazon,corazon,macarron,ojo,labios,corazon,0,0,CV,NA,1,corazon,NA,0,1,1,2,corazon,True,1.836357,
+,vocabulary,VO_P_02,clavo,clavo,calvo,martillo,farola,clavo,2,5,CCV,NA,1,clavo,NA,0,1,2,2,clavo,True,2.299397,
+,vocabulary,VO_P_03,serpiente,serpiente,pendiente,limaco,manguera,serpiente,3,9,CV,NA,1,serpiente,NA,0,1,3,3,serpiente,True,1.875813,
+,vocabulary,VO_T_29,abeja,abeja,oreja,mosca,lapiz,abeja,3,5,CV,NA,2,abeja,NA,0,1,1,3,abeja,True,2.443707,
+,vocabulary,VO_T_25,flecha,flecha,Ficha,arco,boligrafo,flecha,2,5,CCV,NA,2,flecha,NA,0,1,2,2,boligrafo,False,1.643761,
+,vocabulary,VO_T_24,hoja,hoja,ajo,raiz,plato,hoja,2,3,CV,NA,2,hoja,NA,0,1,3,2,hoja,True,2.512108,
+,vocabulary,VO_T_09,mano,mano,mono,pie,guante,mano,2,4,CV,NA,2,mano,NA,0,1,4,0,mano,True,1.52404,
+,vocabulary,VO_T_27,manzana,manzana,mascara,pera,pelota,manzana,3,7,CV,NA,2,manzana,NA,0,1,5,0,manzana,True,1.79229,

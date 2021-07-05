@@ -1,0 +1,68 @@
+﻿<Properties StartupConfiguration="{101EBAEA-608F-C133-EAC2-6B400FB11D3B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/3rdParty/FingerGestures/Scripts/Toolbox/Camera/TBOrbit.cs">
+    <Files>
+      <File FileName="Assets/sirHat/scripts/2018/Main.cs" Line="19" Column="1" />
+      <File FileName="Assets/sirHat/scripts/Formulario/CForm.cs" />
+      <File FileName="Assets/sirHat/scripts/CManager.cs" />
+      <File FileName="Assets/sirHat/scripts/Tarea/CSubtarea.cs" />
+      <File FileName="Assets/sirHat/scripts/2018/PantallaTareas.cs" />
+      <File FileName="Assets/sirHat/scripts/2018/Juego.cs" />
+      <File FileName="Assets/sirHat/scripts/tests/CTestCCF.cs" />
+      <File FileName="Assets/sirHat/scripts/tests/CTest5.cs" />
+      <File FileName="Assets/sirHat/scripts/Managers/CAdminSalirTest.cs" />
+      <File FileName="Assets/sirHat/scripts/Visual/CSalir.cs" />
+      <File FileName="Assets/sirHat/scripts/Visual/CVisual.cs" />
+      <File FileName="Assets/sirHat/scripts/2018/SubidaDatos.cs" />
+      <File FileName="Assets/sirHat/scripts/2018/Login.cs" />
+      <File FileName="Assets/sirHat/scripts/2018/CData.cs" Line="135" Column="1" />
+      <File FileName="Assets/sirHat/scripts/2018/DBServices.cs" />
+      <File FileName="Assets/sirHat/scripts/2018/Registro.cs" />
+      <File FileName="Assets/sirHat/scripts/Managers/CCanvasManager.cs" Line="563" Column="8" />
+      <File FileName="Assets/3rdParty/FingerGestures/Scripts/Toolbox/Camera/TBOrbit.cs" Line="80" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="lexiland" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="3rdParty" expanded="True">
+                <Node name="FingerGestures" expanded="True">
+                  <Node name="Scripts" expanded="True">
+                    <Node name="Gesture Recognizers" expanded="True" />
+                    <Node name="Input Providers" expanded="True" />
+                    <Node name="Toolbox" expanded="True">
+                      <Node name="Camera" expanded="True">
+                        <Node name="TBOrbit.cs" selected="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="FingersLite" expanded="True">
+                  <Node name="Demo" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="sirHat" expanded="True">
+                <Node name="scripts" expanded="True">
+                  <Node name="2018" expanded="True" />
+                  <Node name="Formulario" expanded="True" />
+                  <Node name="Managers" expanded="True" />
+                  <Node name="Tarea" expanded="True" />
+                  <Node name="tests" expanded="True" />
+                  <Node name="Visual" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.lexiland PreferredExecutionTarget="a0086324-7631-41c2-b8f6-2bcc9e7bcedf" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="693ee688-0776-4a73-8bd7-3d194dd90eb7" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

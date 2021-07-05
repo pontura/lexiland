@@ -1,0 +1,11 @@
+task,trialCode,target,visual1,visual2,visual3,visual4,corrResp,numSyll,numPhon,struct,syllPos,trialType,audio1,audio2,numPrac,taskPos,trialPos,targetPos,resp,acierto,RT,session
+rhymePW,RPW_T_01,ite,NA,NA,NA,NA,1,3,6,CV,NA,2,funite,bosite,,,,,,,,
+rhymePW,RPW_T_02,ana,NA,NA,NA,NA,1,3,6,CV,NA,2,fabrana,vatrana,,,,,,,,
+rhymePW,RPW_T_03,ero,NA,NA,NA,NA,1,3,7,CV,NA,2,dapero,nidero,,,,,,,,
+rhymePW,RPW_T_04,ena,NA,NA,NA,NA,1,3,6,CV,NA,2,necena,satena,,,,,,,,
+rhymePW,RPW_T_05,eto,NA,NA,NA,NA,1,3,6,CV,NA,2,capeto,boreto,,,,,,,,
+rhymePW,RPW_T_06,era,NA,NA,NA,NA,0,3,6,CV,NA,2,mocera,nevoto,,,,,,,,
+rhymePW,RPW_T_07,alla,NA,NA,NA,NA,0,3,6,CV,NA,2,dopalla,nurote,,,,,,,,
+rhymePW,RPW_T_08,ato,NA,NA,NA,NA,0,3,6,CV,NA,2,cocato,becora,,,,,,,,
+rhymePW,RPW_T_09,ite,NA,NA,NA,NA,0,3,6,CV,NA,2,bocite,sosalla,,,,,,,,
+rhymePW,RPW_T_10,illa,NA,NA,NA,NA,0,3,6,CV,NA,2,ducilla,saceno,,,,,,,,

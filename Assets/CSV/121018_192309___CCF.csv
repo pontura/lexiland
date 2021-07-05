@@ -1,0 +1,17 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+,,,,,,,,,241017
+ID,task,trialCode,target,visual1,visual2,visual3,visual4,corrResp,numSyll,numPhon,struct,syllPos,trialType,audio1,audio2,numPrac,taskPos,trialPos,targetPos,resp,acierto,RT,session
+,rhymeW,RW_E_01,ato,zapato,mochila,NA,NA,0,3,6,CV,NA,0,zapato,mochila,0,1,0,NA,NA,NA,NA,
+,rhymeW,RW_E_02,ena,sirena,ballena,NA,NA,1,3,6,cv,NA,0,sirena,ballena,0,1,0,NA,NA,NA,NA,
+,rhymeW,RW_P_01,una,laguna,rayuela,NA,NA,0,3,7,CV,NA,1,laguna,rayuela,0,1,1,NA,0,True,1.551674,
+,rhymeW,RW_P_02,ete,billete,juguete,NA,NA,1,3,6,CV,NA,1,billete,juguete,0,1,2,NA,1,True,0.4156456,
+,rhymeW,RW_T_08,ero,ropero,pirata,NA,NA,0,3,6,CV,NA,2,ropero,pirata,0,1,1,NA,0,True,2.675449,
+,rhymeW,RW_T_05,ero,crucero,plumero,NA,NA,1,3,7,CV,NA,2,crucero,plumero,0,1,2,NA,1,True,2.182659,
+,rhymeW,RW_T_02,ina,cocina,gallina,NA,NA,1,3,6,CV,NA,2,cocina,gallina,0,1,3,NA,1,True,2.180275,
+,rhymeW,RW_T_01,illo,cepillo,cuchillo,NA,NA,1,3,6,CV,NA,2,cepillo,cuchillo,0,1,4,NA,1,True,2.096176,
+,rhymeW,RW_T_10,alla,muralla,bigote,NA,NA,0,3,6,CV,NA,2,muralla,bigote,0,1,5,NA,0,True,3.608269,
+,rhymePW,RPW_T_04,ena,NA,NA,NA,NA,1,3,6,CV,NA,2,necena,satena,0,2,1,NA,1,True,25.39906,
+,rhymePW,RPW_T_01,ite,NA,NA,NA,NA,1,3,6,CV,NA,2,funite,bosite,0,2,2,NA,0,False,34.41541,
+,rhymePW,RPW_T_10,illa,NA,NA,NA,NA,0,3,6,CV,NA,2,ducilla,saceno,0,2,3,NA,0,True,2.603638,
+,rhymePW,RPW_T_06,era,NA,NA,NA,NA,0,3,6,CV,NA,2,mocera,nevoto,0,2,4,NA,0,True,3.615372,
+,rhymePW,RPW_T_02,ana,NA,NA,NA,NA,1,3,6,CV,NA,2,fabrana,vatrana,0,2,5,NA,1,True,3.083786,

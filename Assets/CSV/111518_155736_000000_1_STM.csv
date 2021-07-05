@@ -1,0 +1,22 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+000000,A,000,NA,1,111518,155653,BF,000,241017
+ID,task,word1,word2,word3,word4,word5,word6,word7,word8,word9,numEl,trialType,taskPos,trialPos,resp1,resp2,resp3,resp4,resp5,resp6,resp7,resp8,resp9,acierto,RT,session
+000000,STMorder,sol,pan,tren,,,,,,,3,0,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+000000,STMorder,sol,tren,rey,pan,,,,,,4,0,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+000000,STMorder,tren,pan,sol,,,,,,,3,1,1,1,sol,pan,tren,,,,,,,False,6.6082,1
+000000,STMorder,tren,pan,sol,,,,,,,3,1,1,1,tren,pan,sol,,,,,,,True,10.42753,1
+000000,STMorder,pan,sol,tren,,,,,,,3,1,1,2,pan,sol,tren,,,,,,,True,7.700211,1
+000000,STMorder,sol,tren,,,,,,,,2,2,1,1,sol,tren,,,,,,,,True,4.056488,1
+000000,STMorder,tren,sol,,,,,,,,2,2,1,2,tren,sol,,,,,,,,True,9.376907,1
+000000,STMorder,tren,pan,sol,,,,,,,3,2,1,3,tren,pan,sol,,,,,,,True,4.976089,1
+000000,STMorder,pan,sol,tren,,,,,,,3,2,1,4,pan,sol,tren,,,,,,,True,8.247711,1
+000000,STMorder,tren,sol,pan,,,,,,,3,2,1,5,tren,pan,sol,,,,,,,False,10.31578,1
+000000,STMorder,sol,rey,pan,tren,,,,,,4,2,1,6,sol,rey,pan,tren,,,,,,True,10.90385,1
+000000,STMorder,rey,sol,tren,pan,,,,,,4,2,1,7,sol,rey,pan,tren,,,,,,False,11.40454,1
+000000,STMorder,tren,rey,sol,pan,,,,,,4,2,1,8,tren,rey,sol,pan,,,,,,True,6.872238,1
+000000,STMorder,flor,sol,rey,tren,pan,,,,,5,2,1,9,flor,sol,rey,tren,pan,,,,,True,10.83365,1
+000000,STMorder,tren,pan,sol,rey,flor,,,,,5,2,1,10,tren,pan,sol,rey,flor,,,,,True,10.58748,1
+000000,STMorder,flor,pan,sol,tren,rey,,,,,5,2,1,11,flor,pan,sol,tren,rey,,,,,True,9.052124,1
+000000,STMorder,tren,flor,sol,pez,pan,rey,,,,6,2,1,12,tren,flor,sol,pez,pan,rey,,,,True,12.24927,1
+000000,STMorder,pan,flor,pez,rey,tren,sol,,,,6,2,1,13,pan,flor,pez,rey,tren,sol,,,,True,13.97556,1
+000000,STMorder,pez,rey,tren,pan,sol,flor,,,,6,2,1,14,pez,rey,tren,pan,flor,sol,,,,False,25.39246,1

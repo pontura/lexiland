@@ -1,0 +1,14 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+,,,,,,,,,241017
+ID,task,trialCode,target,visual1,visual2,visual3,visual4,corrResp,numSyll,numPhon,struct,syllPos,trialType,audio1,audio2,numPrac,taskPos,trialPos,targetPos,resp,acierto,RT,session
+,lettersN,LN_E_01,A,A,Ñ,H,NA,A,NA,NA,NA,NA,0,A,NA,0,1,0,2,NA,NA,NA,
+,lettersN,LN_T_01,B,B,R,N,NA,B,NA,NA,NA,NA,2,B,NA,0,1,1,2,B,True,1.127487,
+,lettersN,LN_T_16,S,S,Z,Y,NA,S,NA,NA,NA,NA,2,S,NA,0,1,2,1,S,True,0.9391556,
+,lettersN,LN_T_06,H,H,L,P,NA,H,NA,NA,NA,NA,2,H,NA,0,1,3,2,H,True,0.9148331,
+,lettersN,LN_T_17,T,T,J,N,NA,T,NA,NA,NA,NA,2,T,NA,0,1,4,0,T,True,0.840065,
+,lettersN,LN_T_10,M,M,Z,T,NA,M,NA,NA,NA,NA,2,M,NA,0,1,5,0,M,True,4.031136,
+,lettersS,LS_T_19,u,U,O,B,NA,U,NA,NA,NA,NA,2,u,NA,0,2,1,2,U,True,1.523933,
+,lettersS,LS_T_11,m,M,W,L,NA,M,NA,NA,NA,NA,2,m,NA,0,2,2,1,M,True,2.204277,
+,lettersS,LS_T_04,d,D,C,Z,NA,D,NA,NA,NA,NA,2,d,NA,0,2,3,1,D,True,1.140694,
+,lettersS,LS_T_09,j,J,T,N,NA,J,NA,NA,NA,NA,2,j,NA,0,2,4,2,J,True,1.119614,
+,lettersS,LS_T_10,l,L,J,S,NA,L,NA,NA,NA,NA,2,l,NA,0,2,5,0,J,False,1.036186,

@@ -1,0 +1,13 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+,,,,,,,,,241017
+ID,task,trialCode,target,visual1,visual2,visual3,visual4,corrResp,numSyll,numPhon,struct,syllPos,trialType,audio1,audio2,numPrac,taskPos,trialPos,targetPos,resp,acierto,RT,session
+,blendingP,BP_E_01,gorro,gorro,gota,saco,silla,gorro,2,4,CV,NA,0,gorro_f,NA,0,1,0,0,NA,NA,NA,
+,blendingP,BP_E_02,fresa,fresa,freno,NA,brazo,fresa,2,5,CCV,NA,0,fresa_f,NA,0,1,0,2,NA,NA,NA,
+,blendingP,BP_P_01,sopa,sopa,ropa,jugo,cena,sopa,2,4,CV,NA,1,sopa_f,NA,0,1,1,1,sopa,True,3.44775,
+,blendingP,BP_P_02,plato,plato,plaza,NA,bruja,plato,2,5,CCV,NA,1,plato_f,NA,0,1,2,2,plato,True,1.708298,
+,blendingP,BP_P_03,rodilla,rodilla,ropero,barriga,juguete,rodilla,3,6,CV,NA,1,rodilla_f,NA,0,1,3,1,rodilla,True,2.044083,
+,blendingP,BP_T_04,pato,pato,palo,foca,lupa,pato,2,4,CV,NA,2,pato_f,NA,0,1,1,0,pato,True,0.499649,
+,blendingP,BP_T_10,flecha,flecha,fleco,NA,preso,flecha,2,5,CCV,NA,2,flecha_f,NA,0,1,2,1,flecha,True,0.3762512,
+,blendingP,BP_T_15,gallina,gallina,galleta,conejo,tijera,gallina,3,6,CV,NA,2,gallina_f,NA,0,1,3,0,gallina,True,0.683815,
+,blendingP,BP_T_14,zapato,zapato,zapallo,camisa,paleta,zapato,3,6,CV,NA,2,zapato_f,NA,0,1,4,1,zapato,True,0.3994217,
+,blendingP,BP_T_03,boca,boca,bote,ceja,cine,boca,2,4,CV,NA,2,boca_f,NA,0,1,5,1,boca,True,0.4115906,

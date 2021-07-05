@@ -1,0 +1,13 @@
+task,trialCode,freq,audioL,audioR,cond,trialType,audio1,numPrac,taskPos,trialPos,resp,RT,contador,session
+dichMus,DM_E_01,1.5,bi,bi,te,0,t_15_bi,,,,NA,,,
+dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,,,,NA,,,
+dichMus,DM_T_01,1,m,b,reves,2,r_01_mb,,,,NA,,,
+dichMus,DM_T_02,1,b,m,reves,2,r_01_bm,,,,NA,,,
+dichMus,DM_T_03,1,bi,bi,reves,2,r_01_bi,,,,NA,,,
+dichMus,DM_T_04,2,m,b,reves,2,r_02_mb,,,,NA,,,
+dichMus,DM_T_05,2,b,m,reves,2,r_02_bm,,,,NA,,,
+dichMus,DM_T_06,2,bi,bi,reves,2,r_02_bi,,,,NA,,,
+dichMus,DM_F_01,1.5,bi,bi,te,3,t_15_bi,,,,NA,,,
+dichMus,DM_T_07,3,m,b,reves,2,r_03_mb,,,,NA,,,
+dichMus,DM_T_08,3,b,m,reves,2,r_03_bm,,,,NA,,,
+dichMus,DM_T_09,3,bi,bi,reves,2,r_03_bi,,,,NA,,,

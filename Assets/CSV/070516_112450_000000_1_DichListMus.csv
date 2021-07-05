@@ -1,0 +1,27 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+000000,NA,000,NA,1,070516,112421,NA,NA,070316
+ ID,task,trial_Code,freq,audioL,audioR,cond,trialType,audio1,numPrac,taskPos,trialPos,resp,RT,contador,session
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,1.191265,0,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,1.756268,1,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,2.291161,2,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,2.858871,3,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,3.453407,4,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,4.056679,5,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,4.687901,6,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,5.36776,7,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,6.035629,8,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,6.816952,9,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,7.469185,10,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,8.109535,11,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,8.799412,12,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,9.421833,13,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,10.06266,14,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,10.74424,15,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,11.36493,16,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,11.99062,17,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,12.65068,18,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,13.34439,19,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,14.11331,20,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,14.957,21,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,15.65635,22,1
+000000,dichMus,DM_P_01,1.5,m,b,te,1,t_15_mb,0,1,1,NA,16.24873,23,1

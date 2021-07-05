@@ -1,0 +1,5 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+000000,NA,000,NA,1,070316,125837,NA,NA,070116
+ID,task,word1,word2,word3,word4,word5,word6,word7,word8,word9,numEl,trialType,taskPos,trialPos,resp1,resp2,resp3,resp4,resp5,resp6,resp7,resp8,resp9,acierto,RT,session
+000000,STMspatial,3,5,,,,,,,,2,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1
+000000,STMspatial,1,4,6,,,,,,,3,0,0,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1

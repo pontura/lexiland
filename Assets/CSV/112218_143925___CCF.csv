@@ -1,0 +1,9 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+,,,,,,,,,241017
+ID,task,trialCode,target,visual1,visual2,visual3,visual4,corrResp,numSyll,numPhon,struct,syllPos,trialType,audio1,audio2,numPrac,taskPos,trialPos,targetPos,resp,acierto,RT,session
+,blendingP,BP_E_01,gorro,gorro,gota,saco,silla,gorro,2,4,CV,NA,0,gorro_f,NA,0,1,0,3,NA,NA,NA,
+,blendingP,BP_E_02,fresa,fresa,freno,NA,brazo,fresa,2,5,CCV,NA,0,fresa_f,NA,0,1,0,2,NA,NA,NA,
+,blendingP,BP_P_01,sopa,sopa,ropa,jugo,cena,sopa,2,4,CV,NA,1,sopa_f,NA,0,1,1,0,sopa,True,0.7484055,
+,blendingP,BP_P_02,plato,plato,plaza,NA,bruja,plato,2,5,CCV,NA,1,plato_f,NA,0,1,2,1,plato,True,0.683754,
+,blendingP,BP_P_03,rodilla,rodilla,ropero,barriga,juguete,rodilla,3,6,CV,NA,1,rodilla_f,NA,0,1,3,0,rodilla,True,0.9439316,
+,blendingP,BP_T_01,rata,rata,rayo,sapo,faro,rata,2,4,CV,NA,2,rata_f,NA,0,1,1,3,rata,True,1.108368,

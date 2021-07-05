@@ -1,0 +1,6 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+00,A,00,M,2,052716,050459,NA,NA,052316
+ID,task,word1,word2,word3,word4,word5,word6,word7,word8,word9,numEl,trialType,taskPos,trialPos,resp1,resp2,resp3,resp4,resp5,resp6,resp7,resp8,resp9,acierto,RT,session
+00,STMorder,sol,pan,tren,,,,,,,3,0,1,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2
+00,STMorder,sol,tren,rey,pan,,,,,,4,0,1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,2
+00,STMorder,tren,pan,sol,,,,,,,3,1,1,1,tren,pan,sol,,,,,,,True,2.957764,2

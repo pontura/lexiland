@@ -1,0 +1,14 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+,,,,,,,,,241017
+ID,task,trialCode,target,visual1,visual2,visual3,visual4,corrResp,numSyll,numPhon,struct,syllPos,trialType,audio1,audio2,numPrac,taskPos,trialPos,targetPos,resp,acierto,RT,session
+,blendingS,BS_E_01,perro,perro,pelo,gato,faro,perro,2,4,CV,NA,0,perro_s,NA,0,1,0,0,NA,NA,NA,
+,blendingS,BS_E_02,tetera,tetera,tesoro,botella,juguete,tetera,3,6,CV,NA,0,tetera_s,NA,0,1,0,3,NA,NA,NA,
+,blendingS,BS_P_01,cama,cama,capa,mesa,pato,cama,2,4,CV,NA,1,cama_s,NA,0,1,1,3,cama,True,1.492233,
+,blendingS,BS_P_02,brillo,brillo,brisa,NA,preso,brillo,2,5,CCV,NA,1,brillo_s,NA,0,1,2,2,brillo,True,0.2842712,
+,blendingS,BS_P_03,paleta,paleta,panera,pelota,ballena,paleta,3,6,CV,NA,1,paleta_s,NA,0,1,3,0,paleta,True,0.487915,
+,blendingS,BS_T_03,mano,mano,mago,dedo,jugo,mano,2,4,CV,NA,2,mano_s,NA,0,1,1,2,mano,True,1.155823,
+,blendingS,BS_T_11,camisa,camisa,cadena,zapato,laguna,camisa,3,6,CV,NA,2,camisa_s,NA,0,1,2,1,camisa,True,0.4841614,
+,blendingS,BS_T_06,plato,plato,playa,NA,fruta,plato,2,5,CCV,NA,2,plato_s,NA,0,1,3,1,plato,True,0.2155762,
+,blendingS,BS_T_08,traje,traje,trapo,NA,brazo,traje,2,5,CCV,NA,2,traje_s,NA,0,1,4,0,traje,True,0.1304932,
+,blendingS,BS_T_09,conejo,conejo,cocina,paloma,muneca,conejo,3,6,CV,NA,2,conejo_s,NA,0,1,5,1,conejo,True,0.5361633,
+,blendingS,BS_T_05,gripe,gripe,grillo,NA,bruja,gripe,2,5,CCV,NA,2,gripe_s,NA,0,1,6,2,gripe,True,0.1417236,

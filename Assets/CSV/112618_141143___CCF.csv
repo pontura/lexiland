@@ -1,0 +1,10 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+,,,,,,,,,241017
+ID,task,trialCode,target,visual1,visual2,visual3,visual4,corrResp,numSyll,numPhon,struct,syllPos,trialType,audio1,audio2,numPrac,taskPos,trialPos,targetPos,resp,acierto,RT,session
+,isolationS,IS_E_01,ga,gallo,gato,NA,NA,1,2,4,CV,1,0,gallo,gato,0,1,0,NA,NA,NA,NA,
+,isolationS,IS_E_02,la,lago,pelo,NA,NA,0,2,4,CV,1,0,lago,pelo,0,1,0,NA,NA,NA,NA,
+,isolationS,IS_E_03,mo,mochila,moneda,NA,NA,1,3,6,CV,1,0,mochila,moneda,0,1,0,NA,NA,NA,NA,
+,isolationS,IS_P_01,co,conejo,cocina,NA,NA,1,3,6,CV,1,1,conejo,cocina,0,1,1,NA,1,True,0.8680191,
+,isolationS,IS_P_02,go,gota,ceja,NA,NA,0,2,4,CV,1,1,gota,ceja,0,1,2,NA,0,True,2.799911,
+,isolationS,IS_P_03,ca,cabeza,cadena,NA,NA,1,3,6,CV,1,1,cabeza,cadena,0,1,3,NA,1,True,7.043541,
+,isolationS,IS_P_04,gri,grillo,gripe,NA,NA,1,2,5,CCV,1,1,grillo,gripe,0,1,4,NA,1,True,0.3837891,

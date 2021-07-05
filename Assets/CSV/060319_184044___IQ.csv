@@ -1,0 +1,7 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+,,,,,,,,,241017
+ID,task,trialCode,target,visual1,visual2,visual3,visual4,visual5,visual6,corrResp,corrResp,numSyll,numPhon,struct,syllPos,trialType,audio1,audio2,numPrac,taskPos,trialPos,targetPos,resp,acierto,RT,session
+,WIPPSI,IQ_E_01,0A2,0A,0A1,0A2,0A3,0A4,NA,0A2,2,NA,NA,NA,NA,0,NA,NA,0,1,0,1,NA,NA,NA,
+,WIPPSI,IQ_P_01,0B3,0B,0B1,0B2,0B3,0B4,NA,0B3,3,NA,NA,NA,NA,1,NA,NA,0,1,1,2,0B4,False,3.014755,
+,WIPPSI,IQ_P_01,0B3,0B,0B1,0B2,0B3,0B4,NA,0B3,3,NA,NA,NA,NA,1,NA,NA,0,1,1,2,0B3,True,1.740974,
+,WIPPSI,IQ_P_02,0C1,0C,0C1,0C2,0C3,0C4,NA,0C1,1,NA,NA,NA,NA,1,NA,NA,0,1,2,0,0C1,True,6.916595,

@@ -1,0 +1,12 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+000000,A,000,NA,2,111618,141658,BF,000,241017
+ ID,task,trial_Code,freq,audioL,audioR,cond,trialType,audio1,numPrac,taskPos,trialPos,resp,RT,contador,session
+000000,DichSyll,DS_P_01,NA,la,sa,2,1,lasa,0,1,1,la,5.810959,0,2
+000000,DichSyll,DS_P_02,NA,ma,fa,2,1,mafa,0,1,2,fama,23.86388,1,2
+000000,DichSyll,DS_P_03,NA,ca,ga,1,1,caga,0,1,3,ca,24.59885,2,2
+000000,DichSyll,DS_T_01,NA,ba,pa,1,2,bapa,0,1,1,ba,28.45555,3,2
+000000,DichSyll,DS_T_08,NA,fa,ma,2,2,fama,0,1,2,fama,3.531967,4,2
+000000,DichSyll,DS_T_09,NA,la,sa,2,2,lasa,0,1,3,sa,2.692108,5,2
+000000,DichSyll,DS_T_10,NA,sa,la,2,2,sala,0,1,4,sala,1.808594,6,2
+000000,DichSyll,DS_T_01,NA,ba,pa,1,2,bapa,0,1,5,paba,1.903885,7,2
+000000,DichSyll,DS_T_10,NA,sa,la,2,2,sala,0,1,6,sa,1.475739,8,2

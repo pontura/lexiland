@@ -1,0 +1,10 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+000000,NA,000,NA,1,081617,190711,NA,NA,070516
+ID,task,trialCode,target,offset,dur1,onsetMask,catch,inPhase,corrResp,trialType,numPrac,taskPos,trialPos,targetPos,resp,acierto,RT,sesion
+000000,visE,VE_E_01,planeta.png,6,2,9,False,0,1,0,0,1,0,,NA,False,NA,1
+000000,visE,VE_E_02,,4,1,6,True,-1,0,0,0,1,0,,NA,False,NA,1
+000000,visE,VE_P_01,planeta.png,4,2,7,False,-1,1,1,0,1,1,,1,True,0.6311378,1
+000000,visE,VE_P_02,,8,2,11,True,1,0,1,0,1,2,,0,True,0.5654526,1
+000000,visE,VE_P_03,planeta.png,6,2,9,False,0,1,1,0,1,3,,1,True,0.4983063,1
+000000,visE,VE_T_26,planeta.png,8,1,10,False,1,1,2,0,1,1,,1,True,0.6314316,1
+000000,visE,VE_T_48,,4,1,6,True,-1,1,2,0,1,2,,1,True,0.5649643,1

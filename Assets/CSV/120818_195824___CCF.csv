@@ -1,0 +1,4 @@
+ID,Clase,Escuela,Turno,Sesion,Fecha,Hora,Aplicador,Tablet,Versión App
+,,,,,,,,,241017
+ID,task,trialCode,target,visual1,visual2,visual3,visual4,corrResp,numSyll,numPhon,struct,syllPos,trialType,audio1,audio2,numPrac,taskPos,trialPos,targetPos,resp,acierto,RT,session
+,blendingS,BS_E_01,perro,perro,pelo,gato,faro,perro,2,4,CV,NA,0,perro_s,NA,0,1,0,3,NA,NA,NA,
