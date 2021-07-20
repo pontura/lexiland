@@ -23,7 +23,7 @@ public class DBServices : MonoBehaviour
         byte[] file = File.ReadAllBytes(Application.persistentDataPath + "/Users/user.xml");
         WWWForm form = new WWWForm();
         form.AddBinaryData("file", file);
-        WWW w = new WWW("http://tifon.psico.edu.uy/lexiland-web/RegisterUser.php", form);
+        WWW w = new WWW(DatabaseManager.Instance.url + "RegisterUser.php", form);
         Debug.Log("Registrando " + user.nombre);
         yield return w;
 
@@ -65,9 +65,9 @@ public class DBServices : MonoBehaviour
             form = new WWWForm();
             form.AddBinaryData("file", file);
             if (path.Contains("output"))
-                w = new WWW("http://tifon.psico.edu.uy/lexiland-web/AddOutput.php", form);
+                w = new WWW(DatabaseManager.Instance.url + "AddOutput.php", form);
             else
-                w = new WWW("http://tifon.psico.edu.uy/lexiland-web/AddSubject.php", form);
+                w = new WWW(DatabaseManager.Instance.url + "AddSubject.php", form);
             yield return w;
 
             Debug.Log(path);

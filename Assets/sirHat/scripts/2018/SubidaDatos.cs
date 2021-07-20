@@ -23,6 +23,7 @@ public class SubidaDatos : MonoBehaviour {
 
 	public void Awake()
 	{
+        Debug.Log("Awake");
         sd = this;
 	}
 
