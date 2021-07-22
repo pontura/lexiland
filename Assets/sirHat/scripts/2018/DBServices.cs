@@ -64,10 +64,16 @@ public class DBServices : MonoBehaviour
             file = File.ReadAllBytes(path);
             form = new WWWForm();
             form.AddBinaryData("file", file);
+            string realURL = "";
             if (path.Contains("output"))
-                w = new WWW(DatabaseManager.Instance.url + "AddOutput.php", form);
+                realURL = "AddOutput.php";
             else
-                w = new WWW(DatabaseManager.Instance.url + "AddSubject.php", form);
+                realURL = "AddSubject.php";
+
+            string finalURL = DatabaseManager.Instance.url + realURL;
+            w = new WWW(finalURL, form);
+            Debug.Log(finalURL);
+
             yield return w;
 
             Debug.Log(path);

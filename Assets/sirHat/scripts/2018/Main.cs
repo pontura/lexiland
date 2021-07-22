@@ -152,6 +152,7 @@ public class Main : MonoBehaviour {
         DatosSujeto.transform.GetChild(0).GetChild(4).GetChild(1).GetComponent<Text>().text = s.genero.ToString();
         DatosSujeto.transform.GetChild(0).GetChild(5).GetChild(1).GetComponent<Text>().text = s.escolaridad;
         DatosSujeto.transform.GetChild(0).GetChild(6).GetChild(1).GetComponent<Text>().text = s.ultimoTablero;
+        DatosSujeto.transform.GetChild(0).GetChild(7).GetChild(1).GetComponent<Text>().text = s.custom;
     }
 
     public void IrAtest(){

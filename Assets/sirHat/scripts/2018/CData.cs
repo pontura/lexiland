@@ -71,6 +71,9 @@ public class Sujeto{
 
     public string nombre;
     public string apellido;
+    [XmlElement("custom")]
+    public string custom;
+    [XmlElement("escuela")]
     public string escuela;
     [XmlElement("FechaNacimiento")]
     public DateTime bornDate;

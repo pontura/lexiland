@@ -73,7 +73,7 @@ public class Login : MonoBehaviour {
 
     void OnLoginDone()
     {
-        if (DatabaseManager.Instance.teacherData.all.Length == 0)
+        if (DatabaseManager.Instance.teacherData.all.Count == 0)
         {
             Alert("Usuario inexistente");
             return;
@@ -108,7 +108,6 @@ public class Login : MonoBehaviour {
         {
             Usuario user = new Usuario("", emailField.text);
             user.Save(true);
-
             StartCoroutine(DBServices.db.RegisterUser(user));
         }
     }
