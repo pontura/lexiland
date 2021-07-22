@@ -48,7 +48,6 @@ public class Usuario{
         StreamWriter writer = new StreamWriter(_filepath);
         serializer.Serialize(writer, this);
         writer.Close();
-
     }
 
     public static Usuario Load(string _path)
@@ -71,6 +70,8 @@ public class Sujeto{
 
     public string nombre;
     public string apellido;
+    [XmlElement("teacher_id")]
+    public string teacher_id;
     [XmlElement("custom")]
     public string custom;
     [XmlElement("escuela")]
@@ -88,7 +89,7 @@ public class Sujeto{
     [XmlElement("usuarioID")]
     public string usuarioID;
 
-    public Sujeto (string _nombre, string _apellido, string _escuela, DateTime _bornDate, gender _genero, string _escolaridad, string _ultimotablero, string _id){
+    public Sujeto (string _nombre, string _apellido, string _escuela, string _custom, string _teacher_id, DateTime _bornDate, gender _genero, string _escolaridad, string _ultimotablero, string _id){
         nombre = _nombre;
         apellido = _apellido;
         escuela = _escuela;
@@ -96,6 +97,8 @@ public class Sujeto{
         genero = _genero;
         escolaridad = _escolaridad;
         ultimoTablero = _ultimotablero;
+        custom = _custom;
+        teacher_id = _teacher_id;
         ID = _id;
     }
     public Sujeto (){

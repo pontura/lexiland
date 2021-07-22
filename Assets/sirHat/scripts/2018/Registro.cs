@@ -98,6 +98,7 @@ public class Registro : MonoBehaviour {
                 apellido = apellido.text,
                 escuela = escuela.text,
                 custom = custom.text,
+                teacher_id = DatabaseManager.Instance.GetData().id.ToString(),
                 bornDate = fechaNacimiento.DateTime,
                 genero = (gender)(genero.value - 1),
                 escolaridad = escolaridad.options[escolaridad.value].text,
