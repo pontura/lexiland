@@ -10,7 +10,10 @@ public class Registro : MonoBehaviour {
     public InputField apellido;
     public InputField escuela;
     public InputField custom;
+    public InputField alumnoID;
+
     public Dropdown genero;
+    public Dropdown curso;
     public Dropdown escolaridad;
     public Paroxe.SuperCalendar.Calendar fechaNacimiento;
     public GameObject camposFaltantes;
@@ -71,6 +74,8 @@ public class Registro : MonoBehaviour {
         apellido.text = "";
         escuela.text = PlayerPrefs.GetString("escuela");
         custom.text = "";
+        alumnoID.text = "";
+        curso.value = 0;
         genero.value = 0;
         escolaridad.value = 0;
         fechaNacimiento.SelectionState = Paroxe.SuperCalendar.Calendar.SelectionStateType.None;
@@ -98,6 +103,8 @@ public class Registro : MonoBehaviour {
                 apellido = apellido.text,
                 escuela = escuela.text,
                 custom = custom.text,
+                alumno_id = int.Parse(alumnoID.text),
+                curso = (cursos)(curso.value - 1),
                 teacher_id = DatabaseManager.Instance.GetData().id.ToString(),
                 bornDate = fechaNacimiento.DateTime,
                 genero = (gender)(genero.value - 1),

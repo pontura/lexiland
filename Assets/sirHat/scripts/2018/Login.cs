@@ -35,7 +35,7 @@ public class Login : MonoBehaviour {
 	public void OnEnable()
 	{
         panelError.SetActive(false);
-        emailField.text = "";
+       // emailField.text = "";
         resultField.text = "";
         //nombre.text = "";
         //mail.text = "";
@@ -94,7 +94,7 @@ public class Login : MonoBehaviour {
             if (fi.Length > 0)
             {
                 Usuario usuario = Usuario.Load(fi[0].FullName);
-                if (usuario.mail == emailField.text)
+                if (usuario.mail == DatabaseManager.Instance.GetData().email)
                 {
                     PlayerPrefs.SetString("UserID", usuario.ID);
                     Debug.Log("Entra con " + usuario.nombre);
@@ -106,7 +106,7 @@ public class Login : MonoBehaviour {
 
         if (PlayerPrefs.GetString("UserID") == "")
         {
-            Usuario user = new Usuario("", emailField.text);
+            Usuario user = new Usuario("", DatabaseManager.Instance.GetData().email);
             user.Save(true);
             StartCoroutine(DBServices.db.RegisterUser(user));
         }

@@ -6,7 +6,7 @@ using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
 
-
+public enum cursos { A,B,C,D,E,F };
 public enum gender { Masculino, Femenino, Otro };
 
 [Serializable]
@@ -70,6 +70,10 @@ public class Sujeto{
 
     public string nombre;
     public string apellido;
+    [XmlElement("alumno_id")]
+    public int alumno_id;
+    [XmlElement("curso")]
+    public cursos curso;
     [XmlElement("teacher_id")]
     public string teacher_id;
     [XmlElement("custom")]
@@ -89,7 +93,7 @@ public class Sujeto{
     [XmlElement("usuarioID")]
     public string usuarioID;
 
-    public Sujeto (string _nombre, string _apellido, string _escuela, string _custom, string _teacher_id, DateTime _bornDate, gender _genero, string _escolaridad, string _ultimotablero, string _id){
+    public Sujeto (string _nombre, string _apellido, string _escuela, string _custom, cursos _curso, int _alumno_id, string _teacher_id, DateTime _bornDate, gender _genero, string _escolaridad, string _ultimotablero, string _id){
         nombre = _nombre;
         apellido = _apellido;
         escuela = _escuela;
@@ -98,6 +102,8 @@ public class Sujeto{
         escolaridad = _escolaridad;
         ultimoTablero = _ultimotablero;
         custom = _custom;
+        curso = _curso;
+        alumno_id = _alumno_id;
         teacher_id = _teacher_id;
         ID = _id;
     }
@@ -146,22 +152,24 @@ public class Sujeto{
     int GetNextID()
     {
         int i = -1;
+        i = UnityEngine.Random.Range(0, 1000000);
+        //pontura: creo hace un id++;
 
-        DirectoryInfo di = new DirectoryInfo(Application.persistentDataPath + "/Users/" + usuarioID);
-        foreach (DirectoryInfo fi in di.GetDirectories())
-        {
-            Debug.Log(fi.Name);
-            if (int.TryParse(fi.Name.Substring(7), out int splitName))
-                i = Mathf.Max(splitName, i);
-        }
+        //DirectoryInfo di = new DirectoryInfo(Application.persistentDataPath + "/Users/" + usuarioID);
+        //foreach (DirectoryInfo fi in di.GetDirectories())
+        //{
+        //    Debug.Log(fi.Name);
+        //    if (int.TryParse(fi.Name.Substring(7), out int splitName))
+        //        i = Mathf.Max(splitName, i);
+        //}
 
-        di = new DirectoryInfo(Application.persistentDataPath + "/Users/" + usuarioID + "/borrados/");
-        foreach (DirectoryInfo fi in di.GetDirectories())
-        {
-            Debug.Log(fi.Name);
-            if (int.TryParse(fi.Name.Substring(7), out int splitName))
-                i = Mathf.Max(splitName, i);
-        }
+        //di = new DirectoryInfo(Application.persistentDataPath + "/Users/" + usuarioID + "/borrados/");
+        //foreach (DirectoryInfo fi in di.GetDirectories())
+        //{
+        //    Debug.Log(fi.Name);
+        //    if (int.TryParse(fi.Name.Substring(7), out int splitName))
+        //        i = Mathf.Max(splitName, i);
+        //}
 
         return (i+1);
     }

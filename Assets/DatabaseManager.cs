@@ -73,6 +73,14 @@ public class DatabaseManager : MonoBehaviour
         }
         OnLoginDone();
     }
+    public void ResetUser()
+    {
+        teacherData.all[0].name = "";
+        teacherData.all[0].id = 0;
+        teacherData.all[0].admin_id = 0;
+        teacherData.all[0].lastname = "";
+        teacherData.all[0].email = "";
+    }
     IEnumerator LoadJson(string url, System.Action<string> OnDone)
     {
         print(url);

@@ -30,14 +30,14 @@ public class DBServices : MonoBehaviour
         if (w.error == null)
         {
             Debug.Log(w.text);
-            string ID = int.Parse(w.text).ToString("0000");
+            //string ID = int.Parse(w.text).ToString("0000");
+            string ID = DatabaseManager.Instance.GetData().id.ToString();
             Debug.Log(ID);
             PlayerPrefs.SetString("UserID", ID);
             user.ID = ID;
             user.Save(false);
             File.Delete(Application.persistentDataPath + "/Users/user.xml");
             CCanvasManager.Instance.IrAMain();
-
         }
         else
         {
