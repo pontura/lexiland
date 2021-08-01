@@ -53,8 +53,10 @@ public class Registro : MonoBehaviour {
 
         bool checkGenero = genero.value != 0;
         genero.gameObject.transform.GetChild(0).gameObject.SetActive(checkGenero);
+
         bool checkEscolaridad = escolaridad.value != 0;
         escolaridad.gameObject.transform.GetChild(0).gameObject.SetActive(checkEscolaridad);
+
         bool checkDOB = fechaNacimiento.SelectionState == Paroxe.SuperCalendar.Calendar.SelectionStateType.DaySelected;
         fechaNacimiento.gameObject.transform.GetChild(fechaNacimiento.gameObject.transform.childCount - 1).gameObject.SetActive(checkDOB);
 
@@ -95,8 +97,13 @@ public class Registro : MonoBehaviour {
 
     public void AttempToRegister(){
 
-        if (enableRegister){
+        string cursoValue = curso.options[curso.value].text;
+        if (curso.value.ToString().ToLower() == "curso") cursoValue = "";
 
+        if (alumnoID.text.Length < 1)
+            alumnoID.text = "0";
+
+        if (enableRegister){
             Sujeto sujeto = new Sujeto
             {
                 nombre = nombre.text,
@@ -104,12 +111,12 @@ public class Registro : MonoBehaviour {
                 escuela = escuela.text,
                 custom = custom.text,
                 alumno_id = int.Parse(alumnoID.text),
-                curso = (cursos)(curso.value - 1),
+                curso = cursoValue,
                 teacher_id = DatabaseManager.Instance.GetData().id.ToString(),
                 bornDate = fechaNacimiento.DateTime,
-                genero = (gender)(genero.value - 1),
+                genero = (gender)(genero.value-1),
                 escolaridad = escolaridad.options[escolaridad.value].text,
-                usuarioID = PlayerPrefs.GetString("UserID")
+                usuarioID = PlayerPrefs.GetString("UserID", "")
             };
 
             sujeto.Save();

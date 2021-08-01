@@ -6,7 +6,6 @@ using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
 
-public enum cursos { A,B,C,D,E,F };
 public enum gender { Masculino, Femenino, Otro };
 
 [Serializable]
@@ -73,7 +72,7 @@ public class Sujeto{
     [XmlElement("alumno_id")]
     public int alumno_id;
     [XmlElement("curso")]
-    public cursos curso;
+    public string curso;
     [XmlElement("teacher_id")]
     public string teacher_id;
     [XmlElement("custom")]
@@ -93,7 +92,7 @@ public class Sujeto{
     [XmlElement("usuarioID")]
     public string usuarioID;
 
-    public Sujeto (string _nombre, string _apellido, string _escuela, string _custom, cursos _curso, int _alumno_id, string _teacher_id, DateTime _bornDate, gender _genero, string _escolaridad, string _ultimotablero, string _id){
+    public Sujeto (string _nombre, string _apellido, string _escuela, string _custom, int _alumno_id, string _curso, string _teacher_id, DateTime _bornDate, gender _genero, string _escolaridad, string _ultimotablero, string _id){
         nombre = _nombre;
         apellido = _apellido;
         escuela = _escuela;
