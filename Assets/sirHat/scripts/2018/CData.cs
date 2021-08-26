@@ -117,8 +117,8 @@ public class Sujeto{
         StreamWriter writer;
         XmlSerializer serializer = new XmlSerializer(typeof(Sujeto));
 
-        if (ID == ""){
-
+        if (ID == "")
+        {
             //int i = new DirectoryInfo(Application.persistentDataPath + "/Users/" + usuarioID).GetDirectories().Length - 1;
             //i += new DirectoryInfo(Application.persistentDataPath + "/Users/" + usuarioID + "/borrados/").GetDirectories().Length;
 
@@ -127,13 +127,13 @@ public class Sujeto{
 
             ID = PlayerPrefs.GetString("UserID") + devID + GetNextID().ToString("00");
 
-        string _path = Application.persistentDataPath + "/Users/" + usuarioID + "/" + ID;
-        Directory.CreateDirectory(_path);
-        _filepath = _path + "/" + "sujeto.xml";
+            string _path = Application.persistentDataPath + "/Users/" + usuarioID + "/" + ID;
+            Directory.CreateDirectory(_path);
+            _filepath = _path + "/" + "sujeto.xml";
 
-        writer = new StreamWriter(_filepath);
-        serializer.Serialize(writer, this);
-        writer.Close();
+            writer = new StreamWriter(_filepath);
+            serializer.Serialize(writer, this);
+            writer.Close();
 
         }
 

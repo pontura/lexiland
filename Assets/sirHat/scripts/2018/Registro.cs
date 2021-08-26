@@ -13,7 +13,7 @@ public class Registro : MonoBehaviour {
     public InputField alumnoID;
 
     public Dropdown genero;
-    public Dropdown curso;
+    public InputField curso;
     public Dropdown escolaridad;
     public Paroxe.SuperCalendar.Calendar fechaNacimiento;
     public GameObject camposFaltantes;
@@ -60,9 +60,9 @@ public class Registro : MonoBehaviour {
         bool checkDOB = fechaNacimiento.SelectionState == Paroxe.SuperCalendar.Calendar.SelectionStateType.DaySelected;
         fechaNacimiento.gameObject.transform.GetChild(fechaNacimiento.gameObject.transform.childCount - 1).gameObject.SetActive(checkDOB);
 
-        enableRegister = (checkNombre && checkApellido && checkEscuela && checkGenero && checkEscolaridad && checkDOB);
+       // enableRegister = (checkNombre && checkApellido && checkEscuela && checkGenero && checkEscolaridad && checkDOB);
 
-        if (enableRegister)
+      //  if (enableRegister)
             camposFaltantes.SetActive(false);
 
 
@@ -77,7 +77,7 @@ public class Registro : MonoBehaviour {
         escuela.text = PlayerPrefs.GetString("escuela");
         custom.text = "";
         alumnoID.text = "";
-        curso.value = 0;
+        curso.text = "";
         genero.value = 0;
         escolaridad.value = 0;
         fechaNacimiento.SelectionState = Paroxe.SuperCalendar.Calendar.SelectionStateType.None;
@@ -97,13 +97,13 @@ public class Registro : MonoBehaviour {
 
     public void AttempToRegister(){
 
-        string cursoValue = curso.options[curso.value].text;
-        if (curso.value.ToString().ToLower() == "curso") cursoValue = "";
+        string cursoValue = curso.text.ToString().ToLower();
+        if (cursoValue == "curso") cursoValue = "";
 
         if (alumnoID.text.Length < 1)
             alumnoID.text = "0";
 
-        if (enableRegister){
+       // if (enableRegister){
             Sujeto sujeto = new Sujeto
             {
                 nombre = nombre.text,
@@ -114,7 +114,7 @@ public class Registro : MonoBehaviour {
                 curso = cursoValue,
                 teacher_id = DatabaseManager.Instance.GetData().id.ToString(),
                 bornDate = fechaNacimiento.DateTime,
-                genero = (gender)(genero.value-1),
+                genero = (gender)(genero.value),
                 escolaridad = escolaridad.options[escolaridad.value].text,
                 usuarioID = PlayerPrefs.GetString("UserID", "")
             };
@@ -123,10 +123,10 @@ public class Registro : MonoBehaviour {
 
             this.gameObject.SetActive(false);
             Main.m.Initiate(sujeto);
-        }
-        else{
-            camposFaltantes.SetActive(true);
-        }
+        //}
+        //else{
+        //    camposFaltantes.SetActive(true);
+        //}
 
 
     }
