@@ -80,10 +80,10 @@ public class Main : MonoBehaviour {
                 f.transform.SetAsLastSibling();
                 //yield return new WaitForEndOfFrame();
                 f.transform.GetChild(1).GetChild(0).GetComponent<Text>().text = sujeto.ID.Substring(4);
-                f.transform.GetChild(4).GetChild(0).GetComponent<Text>().text = sujeto.nombre;
-                f.transform.GetChild(5).GetChild(0).GetComponent<Text>().text = sujeto.apellido;
-                f.transform.GetChild(2).GetChild(0).GetComponent<Text>().text = sujeto.escuela;
-                f.transform.GetChild(3).GetChild(0).GetComponent<Text>().text = sujeto.escolaridad + "" + sujeto.curso + "" + sujeto.alumno_id;
+                f.transform.GetChild(2).GetChild(0).GetComponent<Text>().text = sujeto.nombre;
+                f.transform.GetChild(3).GetChild(0).GetComponent<Text>().text = sujeto.apellido;
+                f.transform.GetChild(4).GetChild(0).GetComponent<Text>().text = sujeto.escuela;
+                f.transform.GetChild(5).GetChild(0).GetComponent<Text>().text = sujeto.escolaridad + sujeto.curso + " N°" + sujeto.alumno_id;
                 f.transform.GetChild(6).gameObject.SetActive(false);
 
                 Button ver = f.transform.GetChild(6).GetComponent<Button>();
@@ -152,7 +152,7 @@ public class Main : MonoBehaviour {
         DatosSujeto.transform.GetChild(0).GetChild(2).GetChild(1).GetComponent<Text>().text = s.escuela;
         DatosSujeto.transform.GetChild(0).GetChild(3).GetChild(1).GetComponent<Text>().text = s.bornDate.ToShortDateString();
         DatosSujeto.transform.GetChild(0).GetChild(4).GetChild(1).GetComponent<Text>().text = s.genero.ToString();
-        DatosSujeto.transform.GetChild(0).GetChild(5).GetChild(1).GetComponent<Text>().text = s.escolaridad + "" + s.curso + "" + s.alumno_id;
+        DatosSujeto.transform.GetChild(0).GetChild(5).GetChild(1).GetComponent<Text>().text = s.escolaridad + "" + s.curso + " N°:" + s.alumno_id;
         DatosSujeto.transform.GetChild(0).GetChild(6).GetChild(1).GetComponent<Text>().text = s.ultimoTablero;
         DatosSujeto.transform.GetChild(0).GetChild(7).GetChild(1).GetComponent<Text>().text = s.custom;
     }
