@@ -45,6 +45,10 @@ public class Login : MonoBehaviour {
     //public void CheckData(){
     //    botonIngresar.interactable = (nombre.text != "" && mail.text != "");
     //}
+    public void SetError()
+    {
+        Alert("Email incorrecto");
+    }
     void Alert(string text)
     {
         CancelInvoke();

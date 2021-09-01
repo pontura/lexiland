@@ -103,7 +103,12 @@ public class Registro : MonoBehaviour {
         if (alumnoID.text.Length < 1)
             alumnoID.text = "0";
 
-        if (enableRegister){
+        System.DateTime d = fechaNacimiento.DateTime;
+        if (d == null)  d = new System.DateTime();
+        int generoID = genero.value -1;
+        if (generoID < 0)  generoID = 0;
+
+            // if (enableRegister){
             Sujeto sujeto = new Sujeto
             {
                 nombre = nombre.text,
@@ -113,8 +118,8 @@ public class Registro : MonoBehaviour {
                 alumno_id = int.Parse(alumnoID.text),
                 curso = cursoValue,
                 teacher_id = DatabaseManager.Instance.GetData().id.ToString(),
-                bornDate = fechaNacimiento.DateTime,
-                genero = (gender)(genero.value-1),
+                bornDate = d,
+                genero = (gender)(generoID),
                 escolaridad = escolaridad.options[escolaridad.value].text,
                 usuarioID = PlayerPrefs.GetString("UserID", "")
             };
@@ -123,10 +128,10 @@ public class Registro : MonoBehaviour {
 
             this.gameObject.SetActive(false);
             Main.m.Initiate(sujeto);
-        }
-        else{
-            camposFaltantes.SetActive(true);
-        }
+        //}
+        //else{
+        //    camposFaltantes.SetActive(true);
+        //}
 
 
     }

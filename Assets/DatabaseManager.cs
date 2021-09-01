@@ -10,6 +10,7 @@ public class DatabaseManager : MonoBehaviour
     public string phpLoginFile;
     public TeacherData teacherData;
     string email;
+    public Login login;
 
     [Serializable]
     public class TeacherData
@@ -62,7 +63,12 @@ public class DatabaseManager : MonoBehaviour
     }
     void LoginDone(string data)
     {
-        teacherData = JsonUtility.FromJson<TeacherData>(data);      
+        teacherData = JsonUtility.FromJson<TeacherData>(data); 
+        if(teacherData == null || teacherData.all.Count == 0)
+        {
+            login.SetError();
+            return;
+        }
         if (teacherData != null)
         {
             PlayerPrefs.SetString("teacher_name", teacherData.all[0].name);
