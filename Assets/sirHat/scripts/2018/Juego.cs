@@ -31,6 +31,7 @@ public class Juego : MonoBehaviour {
     public GameObject panelPrevia;
 
     public static Juego j;
+    public CheckPassword checkPassword;
 
     int indexEstacion;
     Dropdown juegos;
@@ -239,7 +240,10 @@ public class Juego : MonoBehaviour {
         }
     }
     */
-
+    public void SkipPasswordAndExit() // pontura: salir automaticamente si solo querías grabar el tablero
+    {
+        checkPassword.SkipPasswordAndExit();
+    }
     public void EndEdit(){
         if (juego != null)
             StartGame();
@@ -249,7 +253,7 @@ public class Juego : MonoBehaviour {
         }
     }
 
-    public void SaveJuego(){
+    public void SaveJuego(bool saveAndExit = false){
 
         juego = ScriptableObject.CreateInstance<CJuego>();
 
@@ -265,7 +269,10 @@ public class Juego : MonoBehaviour {
         }
         juego.Save();
 
-        StartGame();
+        if(saveAndExit)
+            SkipPasswordAndExit();
+        else
+            StartGame();
 
     }
 
@@ -320,10 +327,6 @@ public class Juego : MonoBehaviour {
         audioSource.Play();
         estaciones = null;
         j.estaciones = null;
-
-        //yield return new WaitForSeconds(8.0f);
-        //final.SetActive(false);
-        //CCanvasManager.Instance.IrAMain();
     }
 
 
@@ -339,6 +342,8 @@ public class Juego : MonoBehaviour {
 
         CJuego[] listaJuegos = Resources.LoadAll<CJuego>("Juegos");
 
+        juegos.options.Add(new Dropdown.OptionData("---"));
+
         foreach (CJuego _juego in listaJuegos)
         {
             juegos.options.Add(new Dropdown.OptionData(_juego.nombre));
@@ -352,7 +357,7 @@ public class Juego : MonoBehaviour {
             juegos.options.Add(new Dropdown.OptionData(_juego.nombre));
             listaJuegosFinal.Add(_juego);
         }
-
+        juegos.value = 0;
         RectTransform template = juegos.transform.GetChild(3).GetComponent<RectTransform>();
         template.sizeDelta = new Vector2(template.sizeDelta.x, (juegos.options.Count) * 50);
         RectTransform content = juegos.transform.GetChild(3).GetChild(0).GetChild(0).GetComponent<RectTransform>();
@@ -361,14 +366,16 @@ public class Juego : MonoBehaviour {
         juegos.onValueChanged.RemoveAllListeners();
         juegos.onValueChanged.AddListener(delegate
             {
-            //Debug.Log(juegos.value);
-            LoadJuego(listaJuegosFinal[juegos.value]);
-            borrarTablero.gameObject.SetActive(juegos.value >= cantDefault);
-            if (juegos.value >= cantDefault){
+                int juegosValue = juegos.value - 1;
+                if (juegosValue < 0) return;
+            Debug.Log(juegosValue);
+            LoadJuego(listaJuegosFinal[juegosValue]);
+            borrarTablero.gameObject.SetActive(juegosValue >= cantDefault);
+            if (juegosValue >= cantDefault){
                 borrarTablero.onClick.RemoveAllListeners();
                 borrarTablero.onClick.AddListener(() => {
-                    Debug.Log("Borrando " + listaJuegosFinal[juegos.value].nombre);
-                    listaJuegosFinal[juegos.value].Delete();
+                    Debug.Log("Borrando " + listaJuegosFinal[juegosValue].nombre);
+                    listaJuegosFinal[juegosValue].Delete();
                     LoadJuegos();
                 });
             }

@@ -107,8 +107,16 @@ public class Registro : MonoBehaviour {
         int generoID = genero.value -1;
         if (generoID < 0)  generoID = 0;
 
-            // if (enableRegister){
-            Sujeto sujeto = new Sujeto
+        string grado;
+        if (escolaridad.value == 0)
+            grado = "";
+        else
+            grado = escolaridad.options[escolaridad.value].text;
+
+        print("grado: " + grado);
+
+        // if (enableRegister){
+        Sujeto sujeto = new Sujeto
             {
                 nombre = nombre.text,
                 apellido = apellido.text,
@@ -119,7 +127,7 @@ public class Registro : MonoBehaviour {
                 teacher_id = DatabaseManager.Instance.GetData().id.ToString(),
                 bornDate = d,
                 genero = (gender)(generoID),
-                escolaridad = escolaridad.options[escolaridad.value].text,
+                escolaridad = grado,
                 usuarioID = PlayerPrefs.GetString("UserID", "")
             };
 

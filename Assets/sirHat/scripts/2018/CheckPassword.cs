@@ -18,6 +18,10 @@ public class CheckPassword : MonoBehaviour {
             evento.Invoke();
 
     }
+    public void SkipPasswordAndExit() // pontura: salir automaticamente si solo querías grabar el tablero
+    {
+        evento.Invoke();
+    }
 
 
 }
